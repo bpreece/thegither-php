@@ -1,0 +1,54 @@
+/* 
+    Document   : install
+    Created on : Nov 5, 2013, 7:54:06 AM
+    Author     : benpreece
+    Description:
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.status {
+    border: 1px solid #888;
+    margin-left: 175px;
+    padding: 1em 1.5em;
+}
+
+.status.good {
+    border-color: green;
+}
+
+.status.error {
+    border-color: red;
+}
+
+.form-field {
+    margin: 1em auto;
+}
+
+.form-field label {
+    display: block;
+    float: left;
+    width: 150px;
+    margin-right: -175px;
+    text-align: right;
+}
+
+.form-field .input-wrapper {
+    margin-left: 175px;
+}
+
+.form-field input {
+    width: 100%;
+}
+
+.form-controls {
+    margin-left: 175px;
+}

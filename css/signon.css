@@ -1,0 +1,85 @@
+/* 
+    Document   : signon
+    Created on : Nov 5, 2013, 4:48:39 PM
+    Author     : benpreece
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.page {
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 115%;
+}
+
+#form_wrapper {
+    width: 360px;
+    padding: 10px 2em;
+    margin: auto;
+    border: solid #ccc;
+    border-width: 1px 1px 2px 1px;
+    border-bottom-color: #aaa;
+    border-right-color: #bbb;
+    border-radius: 8px;
+    background-color: #e0e8ff;
+}
+
+.message,
+input {
+    margin: 0.5em 0;
+}
+
+.message.confirm {
+    color: #047;
+}
+
+.message.error {
+    color: #f33;
+}
+
+.form-field {
+}
+
+input {
+    -webkit-appearance: none;
+    font-size: 115%;
+}
+
+input[type='text'],
+input[type='password']{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5em 9px;
+    width: 340px;
+}
+
+input[type='submit'] {
+    border: 1px solid #777;
+    border-radius: 5px;
+    padding: 0.15em 1em;
+}
+
+input.error {
+    border-color: #fcb;
+    background-color: #fee;
+}
+
+.user-help {
+    margin: 1em 0;
+    color: #777;
+}
+
+a {
+    text-decoration: none;
+    color: #89baff;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #457fd1;
+}

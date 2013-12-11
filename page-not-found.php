@@ -1,0 +1,13 @@
+<?php
+
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page not found</title>
+    </head>
+    <body>
+        Page not found
+    </body>
+</html>
